@@ -1,0 +1,26 @@
+[23:00:06] [INFO] [vision.camera] Camera opened: index=0 640x480@30fps
+[23:00:06] [INFO] [vision.face_detection] FaceDetector ready (model=0, conf=0.6)
+[23:00:06] [INFO] [vision.face_alignment] FaceAligner ready (size=112, padding=0.3)
+[23:00:06] [INFO] [vision.face_recognition] FaceRecognizer ready (threshold=0.75, key_landmarks=15)
+[23:00:06] [INFO] [database.embeddings_db] No embeddings file found at database\embeddings.pkl — starting fresh
+[23:00:06] [INFO] [vision.student_identifier] StudentIdentifier ready -- 0 students registered: []
+[23:02:16] [INFO] [vision.camera] Camera opened: index=0 640x480@30fps
+[23:02:16] [INFO] [vision.face_detection] FaceDetector ready (model=0, conf=0.6)
+[23:02:16] [INFO] [vision.face_alignment] FaceAligner ready (size=112, padding=0.3)
+[23:02:16] [INFO] [vision.face_recognition] FaceRecognizer ready (threshold=0.75, key_landmarks=15)
+[23:02:16] [INFO] [database.embeddings_db] No embeddings file found at database\embeddings.pkl — starting fresh
+[23:02:16] [INFO] [vision.student_identifier] StudentIdentifier ready -- 0 students registered: []
+[23:02:40] [INFO] [vision.student_identifier] Registering: 'Ayon' -- collecting 30 frames...
+[23:02:41] [INFO] [database.embeddings_db] Registered face: 'Ayon'
+[23:02:41] [INFO] [database.embeddings_db] Saved 1 embeddings → database\embeddings.pkl
+[23:02:41] [INFO] [vision.student_identifier] Student 'Ayon' registered successfully (30 frames)
+[23:05:02] [INFO] [vision.camera] Camera opened: index=0 640x480@30fps
+[23:05:02] [INFO] [vision.face_detection] FaceDetector ready (model=0, conf=0.6)
+[23:05:02] [INFO] [vision.face_alignment] FaceAligner ready (size=112, padding=0.3)
+[23:05:02] [INFO] [vision.face_recognition] FaceRecognizer ready (threshold=0.75, key_landmarks=15)
+[23:05:02] [INFO] [database.embeddings_db] Loaded 1 embeddings from database\embeddings.pkl
+[23:05:02] [INFO] [vision.student_identifier] StudentIdentifier ready -- 1 students registered: ['Ayon']
+[23:05:22] [INFO] [vision.camera] Camera released
+[23:05:22] [INFO] [vision.face_detection] FaceDetector closed
+[23:05:22] [INFO] [vision.face_recognition] FaceRecognizer closed
+[23:05:22] [INFO] [vision.student_identifier] StudentIdentifier closed
