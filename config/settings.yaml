@@ -1,0 +1,25 @@
+vision:
+  camera_index: 0
+  frame_width: 640
+  frame_height: 480
+  target_fps: 30
+
+face_detection:
+  model_selection: 0
+  min_detection_confidence: 0.6
+  show_fps: true
+  show_landmarks: true
+  latency_target_ms: 100
+
+face_recognition:
+  min_detection_confidence: 0.6
+  min_tracking_confidence: 0.5
+  max_num_faces: 1
+  refine_landmarks: false
+  similarity_threshold: 0.75
+  register_frames: 30
+  key_landmarks: [33, 133, 362, 263, 1, 4, 61, 291, 199, 70, 300, 168, 6, 197, 195]
+
+student:
+  embeddings_path: "database/embeddings.pkl"
+  unknown_label: "Unknown"
