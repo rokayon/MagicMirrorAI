@@ -20,6 +20,12 @@ face_recognition:
   register_frames: 30
   key_landmarks: [33, 133, 362, 263, 1, 4, 61, 291, 199, 70, 300, 168, 6, 197, 195]
 
+face_alignment:
+  output_size: 112          # standard ArcFace input size
+  padding: 0.3              # face crop এর চারপাশে extra space
+  eye_landmark_left: 33     # MediaPipe left eye corner index
+  eye_landmark_right: 263   # MediaPipe right eye corner index
+  
 student:
   embeddings_path: "database/embeddings.pkl"
   unknown_label: "Unknown"
